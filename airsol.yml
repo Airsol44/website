@@ -1,4 +1,4 @@
-email: airsol44@gmail.com
+email: "airsol44@gmail.com"
 tel: 02 40 01 38 72
 address:
   street: "1, rue du Pont de l'Angle"
@@ -49,3 +49,35 @@ links:
     - "[HESPUL](http://www.hespul.org/)"
     - "[BDPV (base de données photovoltaïque)](http://www.bdpv.fr/)"
     - "[Annuaire écolo](http://www.annuaireecolo.fr/accueil.php)"
+branch:
+  chaud:
+    info:
+    - title: La Biomasse
+      body: |
+        *Se chauffer avec une ressource renouvelable.*
+        
+        De nombreuses études vous montreront en détail le stock restant de
+        ressources fossiles sans poser la question de savoir s'il est normal
+        d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
+        est gérée, permet de réduire la pression sur les ressources fossiles.
+        
+        Le futur se prépare aujourd'hui.
+    - title: Pouvoir calorifique
+      body: |
+        Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
+        volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
+        qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
+        2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
+    work:
+    - title: Chaudière à bûches Verner
+      id: 2009-buches-verner
+      date: 2009
+      desc: "[Fiche technique](http://airsol44.com/tl_files/documents/fichiers/EN%20-%20Wood%20boilers.pdf)"
+      table:
+      - [Puissance chaudière, 25 Kw]
+      - ["Ballon d'hydroaccumulation", 1 500 l]
+      - [Vanne de chargement thermique]
+      - [Circulateur, Classe A (mini 6 w)]
+      - [Régulation climatique avec vanne trois voies motorisée]
+      - ["Désemboueur et séparateur d'air"]
+      - ["Coût de l'installation", 8 912€ TTC]
