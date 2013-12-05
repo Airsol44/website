@@ -1,12 +1,21 @@
 .as {
-  background: url(../img/depot.png) no-repeat fixed 0 / cover;
+  background: url(../img/index.png) no-repeat fixed 0 / cover;
   color: #333;
   font: 14px/18px sans-serif;
   margin: 0;
 }
 
+.as_chaud {
+  background-image: url(../img/chaud/index.png);
+}
 .as_photo {
-  background-image: url(../img/pose.png);
+  background-image: url(../img/photo/index.png);
+}
+.as_poele {
+  background-image: url(../img/poele/index.png);
+}
+.as_therm {
+  background-image: url(../img/therm/index.png);
 }
 
 .as_about, .as_news {
@@ -64,6 +73,10 @@
 }
 .as_links > li {
   margin-bottom: 10px;
+}
+.as_links p {
+  display: inline;
+  margin: 0;
 }
 .as_links ul {
   list-style: square inside;
