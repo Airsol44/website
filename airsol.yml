@@ -1,0 +1,51 @@
+email: airsol44@gmail.com
+tel: 02 40 01 38 72
+address:
+  street: "1, rue du Pont de l'Angle"
+  postal: 44160
+  locality: Besné
+about: |
+  Airsol, c'est une entreprise artisanale basée en
+  Loire-Atlantique qui installe et conseille sur les panneaux solaires
+  (thermique ou photovoltaique) et sur les chaudières et poêles « biomasse »
+  (c'est à dire à bûches ou granulés de bois).
+  
+  Airsol réalise 45 à 50 installations par an dans le département depuis
+  2006. L'entreprise garantit la qualité de ses installation par les
+  labels Qualit'ENR, QualiPV, etc.
+news: |
+  Venez dire *non* à la fermeture du forum BDPV !
+links:
+-
+  - title: Fournisseurs généralistes
+    list:
+    - "[Coopérative la Sacais](http://www.sacais.com/)"
+    - "[Cedeo](http://www.cedeo.fr/)"
+  - title: Fournisseurs solaire
+    list:
+    - "[Solen](http://www.pompe-solaire.com/)"
+    - "[Quenea](http://www.quenea.com/)"
+    - "[Wagner](http://www.wagner-solar.com/wagnerFR)"
+  - title: Fournisseurs chaudières et poêles
+    list:
+    - "[Lebrun énergie bois](http://www.lebrunenergiebois.com/)"
+    - "[Planète Claire (chaudières Ökofen)](http://www.planeteclaire.fr/)"
+    - "[Quenea](http://www.quenea.com/)"
+    - "[Solen](http://www.solen-economies-energie.fr/)"
+    - "[Hargassner](http://www.hargassner-france.com/)"
+-
+  - title: Associations
+    list:
+    - "[Association HEN](http://hen44.free.fr/20070201)"
+    - "[Association Alisée](http://www.alisee.org/)"
+    - "[Association Défi CIVAM (email)](mailto:&#102;&#100;&#99;&#105;&#118;&#97;&#109;&#46;&#108;&#111;&#105;&#114;&#101;&#97;&#116;&#108;&#97;&#110;&#116;&#105;&#64;&#102;&#114;&#101;&#101;&#46;&#102;&#114;)"
+    - "[INSOCO](http://www.insoco.org/) engagement qualité INstallations SOlaires COntrolées"
+    - "[GPPEP](http://www.gppep.org/) groupement des particuliers producteurs d'electricité photovoltaïque"
+    - "[APPER Solaire](http://www.apper-solaire.org/)"
+  - title: Liens utiles
+    list:
+    - "[Outils Solaires](http://www.outilssolaires.com/)"
+    - "[INES](http://www.ines-solaire.com/)"
+    - "[HESPUL](http://www.hespul.org/)"
+    - "[BDPV (base de données photovoltaïque)](http://www.bdpv.fr/)"
+    - "[Annuaire écolo](http://www.annuaireecolo.fr/accueil.php)"
