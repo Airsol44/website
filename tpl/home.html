@@ -11,10 +11,10 @@
     <p class="as_contact">
 	    Email : <a class="email url" href="{{ email }}">{{ email }}</a><br/>
 	    Téléphone : <span class="tel">{{ tel }}</span><br/>
-	    <span class="adr">
+	    <span class="adr">{{# address }}
 	      <span class="street-address">{{ street }}</span>
 	      <span class="postal-code">{{ postal }}</span>
-	      <span class="locality">{{ locality }}</span>
+	      <span class="locality">{{ locality }}</span>{{/ address }}
 	    </span>
     </p>
 	</header>
