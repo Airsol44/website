@@ -23,21 +23,16 @@ domainInfo:
     2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
 
 workList:
-- workTitle: Chaudière à bûches Verner
-  workName: 2009-buches-verner
-  workDate: 2009
-  workDesc: "Hello you."
+  
+- workTitle: Chaudière 18 KW
+  workName: 2013-08-firestar
+  workDate: Août 2013
+  workDesc: |
+    Fourniture et pose d'une chaudière à granulés de bois avec un ballon pour
+    le chauffage et l'eau chaude sanitaire.
   workTable:
-  - tableRow: [Puissance chaudière, 25 Kw]
-  - tableRow: ["Ballon d'hydroaccumulation", 1 500 l]
-  - tableRow: [Vanne de chargement thermique]
-  - tableRow: [Circulateur, Classe A (mini 6 w)]
-  - tableRow: [Régulation climatique avec vanne trois voies motorisée]
-  - tableRow: ["Désemboueur et séparateur d'air"]
-  - tableRow: ["Coût de l'installation", 8 912€ TTC]
-  workHasSlides: Yes
-  slideList:
-  - slideAlt: Sample image
-    slideUrl: 1.jpg
-  - slideAlt: Sample image
-    slideUrl: 2.jpg
+  - tableRow: [Chaudière, Firestar Lambda HERZ 18 KW]
+  - tableRow: [Ballon 1 000l 2 échangeurs + résistance électrique 3 KW]
+  - tableRow: [Conduit de fumée inox + isolation]
+  - tableRow: ["Coût de l'installation", "17 911,30 € TTC"]
+  workHasSlides: No

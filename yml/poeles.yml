@@ -23,18 +23,62 @@ domainInfo:
     2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
 
 workList:
-- workTitle: Chaudière à bûches Verner
-  workName: 2009-buches-verner
-  workDate: 2009
-  workDesc: "Hello you."
+
+- workTitle: Poêle Jotul 8 KW
+  workName: 2013-10-jotul-pf800
+  workDate: Octobre 2013
+  workDesc: |
+    Fourniture et pose d'un poêle habillage acier à convection naturelle +
+    supports plancher et toit. Installation et essais.
   workTable:
-  - tableRow: [Puissance chaudière, 25 Kw]
-  - tableRow: ["Ballon d'hydroaccumulation", 1 500 l]
-  - tableRow: [Vanne de chargement thermique]
-  - tableRow: [Circulateur, Classe A (mini 6 w)]
-  - tableRow: [Régulation climatique avec vanne trois voies motorisée]
-  - tableRow: ["Désemboueur et séparateur d'air"]
-  - tableRow: ["Coût de l'installation", 8 912€ TTC]
+  - tableRow: [Poêle, "Jotul PF800 habillage acier 8 KW"]
+  - tableRow: [Fumisterie de raccordement émail]
+  - tableRow: [Solin avec collerette + chapeau anti-pluie]
+  - tableRow: [Supports plancher et toit]
+  - tableRow: [Total TTC, "5 520,74 €"]
+  workHasSlides: No
+
+- workTitle: Poêle à bûches Oranier 6 KW
+  workName: 2013-10-oranier
+  workDate: Octobre 2013
+  workDesc: |
+    Fourniture et pose d'un poêle à bûches, création de prise d'air et essais.
+  workTable:
+  - tableRow: [Poêle, "HeraD pierre ollaire gris fonte 6 KW"]
+  - tableRow: [Bûches, 33cm]
+  - tableRow: [Conduits fumée, dans conduit existant]
+  - tableRow: [Raccordement, tube émaillé 2m]
+  - tableRow: [Total TTC, "3 846,65 €"]
+  workHasSlides: No
+
+- workTitle: "Poêle Jotul 7,5 KW"
+  workName: 2013-10-jotul-f400
+  workDate: Octobre 2013
+  workDesc: |
+    Fourniture et pose d'un poêle en fonte, tubage et mise en service.
+  workTable:
+  - tableRow: [Poêle, "Jotul F400 bleu-noir émaillé 7,5 KW"]
+  - tableRow: [Fumisterie inox, "Double peau isolé 7,50m"]
+  - tableRow: [Sans fumisterie de raccordement (fournie)]
+  - tableRow: [Poêle éligible aux certificats C2E]
+  - tableRow: [Total TTC, "4 254,88 €"]
+  workHasSlides: No
+
+- workTitle: Poêle à granulés Red
+  workName: 2013-09-edera
+  workDate: Septembre 2013
+  workDesc: |
+    Pose et essais d'un poêle à granulés, tubage d'un conduit existant.
+  workTable:
+  - tableRow: [Poêle, Red Metal Edera]
+  - tableRow: [Tubage et raccords]
+  - tableRow: ["Percement du mur extérieur pour prise d'air"]
+  - tableRow: [Total TTC, "1 207,96 €"]
+  workHasSlides: No
+
+---
+
+- workTitle: sample with slides
   workHasSlides: Yes
   slideList:
   - slideAlt: Sample image

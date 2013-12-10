@@ -23,21 +23,18 @@ domainInfo:
     2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
 
 workList:
-- workTitle: Chaudière à bûches Verner
-  workName: 2009-buches-verner
-  workDate: 2009
-  workDesc: "Hello you."
+
+- workTitle: Kit photovoltaïque 3 KW
+  workName: 2013-10-sillia
+  workDate: Octobre 2013
+  workDesc: |
+    Fourniture et pose d'un kit photovoltaïque (12 panneaux en intégration).
   workTable:
-  - tableRow: [Puissance chaudière, 25 Kw]
-  - tableRow: ["Ballon d'hydroaccumulation", 1 500 l]
-  - tableRow: [Vanne de chargement thermique]
-  - tableRow: [Circulateur, Classe A (mini 6 w)]
-  - tableRow: [Régulation climatique avec vanne trois voies motorisée]
-  - tableRow: ["Désemboueur et séparateur d'air"]
-  - tableRow: ["Coût de l'installation", 8 912€ TTC]
+  - tableRow: [Panneaux, 12 x Sillia 60P 250 Wc]
+  - tableRow: [Puissance totale, 3 KW]
+  - tableRow: [Disposition, 4 lignes de 3 modules en paysage]
+  - tableRow: [Intégration Solrif]
+  - tableRow: [Onduleur, PICO 3 KW]
+  - tableRow: [Parafoudre + disjoncteur différentiel]
+  - tableRow: ["Coût de l'installation", "9 565,80 € TTC"]
   workHasSlides: No
-  slideList:
-  - slideAlt: Sample image
-    slideUrl: 1.jpg
-  - slideAlt: Sample image
-    slideUrl: 2.jpg
