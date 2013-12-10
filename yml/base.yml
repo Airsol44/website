@@ -1,0 +1,59 @@
+email: "airsol44@gmail.com"
+tel: 02 40 01 38 72
+address:
+  street: "1, rue du Pont de l'Angle"
+  postal: 44160
+  locality: Besné
+
+domainList:
+- domainTitle: |
+    Solaire  
+    Thermique
+  domainName: thermique
+- domainTitle: |
+    Solaire  
+    Photovoltaïque
+  domainName: photovoltaique
+- domainTitle: |
+    Chaudières  
+    Bois
+  domainName: chaudieres
+- domainTitle: |
+    Poêles  
+    Bois
+  domainName: poeles
+
+linkColList:
+- linkCol:
+  - linkRowTitle: Fournisseurs généralistes
+    linkList:
+    - "[Coopérative la Sacais](http://www.sacais.com/)"
+    - "[Cedeo](http://www.cedeo.fr/)"
+  - linkRowTitle: Fournisseurs solaire
+    linkList:
+    - "[Solen](http://www.pompe-solaire.com/)"
+    - "[Quenea](http://www.quenea.com/)"
+    - "[Wagner](http://www.wagner-solar.com/wagnerFR)"
+  - linkRowTitle: Fournisseurs chaudières et poêles
+    linkList:
+    - "[Lebrun énergie bois](http://www.lebrunenergiebois.com/)"
+    - "[Planète Claire (chaudières Ökofen)](http://www.planeteclaire.fr/)"
+    - "[Quenea](http://www.quenea.com/)"
+    - "[Solen](http://www.solen-economies-energie.fr/)"
+    - "[Hargassner](http://www.hargassner-france.com/)"
+- linkCol:
+  - linkRowTitle: Associations
+    linkList:
+    - "[Association HEN](http://hen44.free.fr/20070201)"
+    - "[Association Alisée](http://www.alisee.org/)"
+    - "[Association Défi CIVAM (email)](mailto:&#102;&#100;&#99;&#105;&#118;&#97;&#109;&#46;&#108;&#111;&#105;&#114;&#101;&#97;&#116;&#108;&#97;&#110;&#116;&#105;&#64;&#102;&#114;&#101;&#101;&#46;&#102;&#114;)"
+    - "[INSOCO](http://www.insoco.org/) engagement qualité INstallations SOlaires COntrolées"
+    - "[GPPEP](http://www.gppep.org/) groupement des particuliers producteurs d'electricité photovoltaïque"
+    - "[APPER Solaire](http://www.apper-solaire.org/)"
+  - linkRowTitle: Liens utiles
+    linkList:
+    - "[Outils Solaires](http://www.outilssolaires.com/)"
+    - "[INES](http://www.ines-solaire.com/)"
+    - "[HESPUL](http://www.hespul.org/)"
+    - "[BDPV (base de données photovoltaïque)](http://www.bdpv.fr/)"
+    - "[Annuaire écolo](http://www.annuaireecolo.fr/accueil.php)"

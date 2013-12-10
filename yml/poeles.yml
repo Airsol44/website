@@ -1,0 +1,43 @@
+baseUrl: "../"
+domainName: poeles
+domainPage: Yes
+pageTitle: "Poêles Bois | "
+scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
+
+domainInfo:
+- infoTitle: La Biomasse
+  infoBody: |
+    *Se chauffer avec une ressource renouvelable.*
+
+    De nombreuses études vous montreront en détail le stock restant de
+    ressources fossiles sans poser la question de savoir s'il est normal
+    d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
+    est gérée, permet de réduire la pression sur les ressources fossiles.
+
+    Le futur se prépare aujourd'hui.
+- infoTitle: Pouvoir calorifique
+  infoBody: |
+    Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
+    volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
+    qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
+    2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
+
+workList:
+- workTitle: Chaudière à bûches Verner
+  workName: 2009-buches-verner
+  workDate: 2009
+  workDesc: "Hello you."
+  workTable:
+  - tableRow: [Puissance chaudière, 25 Kw]
+  - tableRow: ["Ballon d'hydroaccumulation", 1 500 l]
+  - tableRow: [Vanne de chargement thermique]
+  - tableRow: [Circulateur, Classe A (mini 6 w)]
+  - tableRow: [Régulation climatique avec vanne trois voies motorisée]
+  - tableRow: ["Désemboueur et séparateur d'air"]
+  - tableRow: ["Coût de l'installation", 8 912€ TTC]
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Sample image
+    slideUrl: 1.jpg
+  - slideAlt: Sample image
+    slideUrl: 2.jpg

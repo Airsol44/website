@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="fr-FR">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ pageTitle }}Airsol</title>
+	<link rel="stylesheet" type="text/css" href="{{ baseUrl }}css/style.css" media="all"/>{{# scriptList }}
+	<script type="text/javascript" src="{{ baseUrl }}js/{{ . }}"></script>{{/ scriptList }}
+</head>
+<body class="as{{# domainPage }} as_{{ domainName }}{{/ domainPage }}">
+	<header class="as_section as_header vcard">
+    <h1 class="as_logo fn org">{{# domainPage }}
+      <a href="{{ baseUrl }}">{{/ domainPage }}Airsol{{# domainPage }}</a>
+    {{/ domainPage }}</h1>
+    <p class="as_contact">
+	    Email : <a class="email url" href="{{ email }}">{{ email }}</a><br/>
+	    Téléphone : <span class="tel">{{ tel }}</span><br/>
+	    <span class="adr">{{# address }}
+	      <span class="street-address">{{ street }}</span>
+	      <span class="postal-code">{{ postal }}</span>
+	      <span class="locality">{{ locality }}</span>{{/ address }}
+	    </span>
+    </p>
+	</header>
+	<nav class="as_section as_menu">{{# domainList }}{{# domainActive }}
+	  <span class="as_menu__item as_menu__{{ domainName }}">{{{ domainTitle }}}</span>{{/ domainActive }}{{^ domainActive }}
+	  <a href="{{ baseUrl }}{{ domainName }}" class="as_menu__item as_menu__{{ domainName }}">{{{ domainTitle }}}</a>{{/ domainActive }}{{/ domainList }}
+	</nav>
+	{{{ pageBody }}}
+	<div class="as_footer">
+	  <footer class="as_section">{{# linkColList }}
+	    <ul class="as_links">{{# linkCol }}
+	      <li>
+	        {{ linkRowTitle }}
+	        <ul>{{# linkList }}
+	          <li>{{{ . }}}</li>{{/ linkList }}
+	        </ul>
+	      </li>{{/ linkCol }}
+	    </ul>{{/ linkColList }}
+	  </footer>
+	</div>
+</body>
+</html>

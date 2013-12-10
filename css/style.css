@@ -1,21 +1,21 @@
 .as {
-  background: url(../img/index.png) no-repeat fixed 0 / cover;
+  background: url(../img/cover.png) no-repeat fixed 0 / cover;
   color: #333;
   font: 14px/18px sans-serif;
   margin: 0;
 }
 
-.as_chaud {
-  background-image: url(../img/chaud/index.png);
+.as_chaudieres {
+  background-image: url(../img/chaudieres/cover.png);
 }
-.as_photo {
-  background-image: url(../img/photo/index.png);
+.as_photovoltaique {
+  background-image: url(../img/photovoltaique/cover.png);
 }
-.as_poele {
-  background-image: url(../img/poele/index.png);
+.as_poeles {
+  background-image: url(../img/poeles/cover.png);
 }
-.as_therm {
-  background-image: url(../img/therm/index.png);
+.as_thermique {
+  background-image: url(../img/thermique/cover.png);
 }
 
 .as_about, .as_news {
@@ -24,21 +24,29 @@
   padding: 10px 20px;
 }
 
-.as_branch__info {
+.as_domain__info {
   background: #eee;
   float: left;
   padding: 10px 2%;
   width: 46%;
 }
-.as_branch__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
+.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
   color: inherit;
 }
-.as_branch__main {
+.as_domain__info:first-child {
   margin-right: 1.1%;
   width: 44.9%;
+}.as_chaudieres .as_domain__info:first-child {
+  background: #e80;
 }
-.as_photo .as_branch__main {
+.as_photovoltaique .as_domain__info:first-child {
   background: #ec0;
+}
+.as_poeles .as_domain__info:first-child {
+  background: #f30;
+}
+.as_thermique .as_domain__info:first-child {
+  background: #ae0;
 }
 
 .as_contact, .as_map {
@@ -101,16 +109,16 @@
   text-decoration: none;
   text-transform: uppercase;
 }
-.as_menu__chaud:hover, .as_chaud .as_menu__chaud {
+.as_menu__chaudieres:hover, .as_chaudieres .as_menu__chaudieres {
   color: #e80;
 }
-.as_menu__photo:hover, .as_photo .as_menu__photo {
+.as_menu__photovoltaique:hover, .as_photovoltaique .as_menu__photovoltaique {
   color: #ec0;
 }
-.as_menu__poele:hover, .as_poele .as_menu__poele {
+.as_menu__poeles:hover, .as_poeles .as_menu__poeles {
   color: #f30;
 }
-.as_menu__therm:hover, .as_therm .as_menu__therm {
+.as_menu__thermique:hover, .as_thermique .as_menu__thermique {
   color: #ae0;
 }
 
@@ -184,6 +192,9 @@
 }
 .as_work__title {
   padding-top: 15px;
+}
+.as_work__header h4, .as_work__header p {
+  padding-left: 20px;
 }
 
 /* priority business */
