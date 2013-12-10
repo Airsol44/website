@@ -71,7 +71,7 @@ media.each {|dir|
 homeParams = yml["base"].merge yml["home"]
 homeParams["pageBody"] = Mustache.render(File.read("mustache/home.mustache"), homeParams)
 File.write("static/index.html", Mustache.render(File.read("mustache/base.mustache"), homeParams))
-puts "index.html"
+puts "airsol44/"
 
 domains.each {|domain|
   Dir.mkdir "static/#{ domain }"
@@ -79,12 +79,11 @@ domains.each {|domain|
   params["domainList"].each_index {|d|
     if params["domainList"][d]["domainName"] == domain
       then
-        puts "#{ domain } -> #{ params["domainList"][d]["domainName"] }"
         params["domainList"][d]["domainActive"] = true
       else params["domainList"][d]["domainActive"] = false
     end
   }
   params["pageBody"] = Mustache.render(File.read("mustache/domain.mustache"), params)
   File.write("static/#{ domain }/index.html", Mustache.render(File.read("mustache/base.mustache"), params))
-  puts "static/#{ domain }/index.html"
+  puts ".. #{ domain } (#{ yml[domain]["workList"].length })"
 }
