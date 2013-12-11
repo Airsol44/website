@@ -5,23 +5,36 @@ pageTitle: "Poêles Bois | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: La Biomasse
+- infoTitle: Un foyer dans le salon
   infoBody: |
-    *Se chauffer avec une ressource renouvelable.*
-
-    De nombreuses études vous montreront en détail le stock restant de
-    ressources fossiles sans poser la question de savoir s'il est normal
-    d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
-    est gérée, permet de réduire la pression sur les ressources fossiles.
-
-    Le futur se prépare aujourd'hui.
-- infoTitle: Pouvoir calorifique
+    Le poêle chauffe directement la pièce dans laquelle il est
+    situé, et s'il s'agit d'un poêle hydro ou "poêle bouilleur" il peut
+    également chauffer l'eau sanitaire et alimenter les radiateurs.
+    
+    Un poêle à granulés de bois sera plus facile à alimenter et fournira une
+    température plus constante que le bois bûche ; celui-ci en revanche
+    permettra une plus grande indépendance quant à la source du bois. Enfin, la
+    qualité de l'isolation du bâtiment a un impact fort : une maison bien isolée
+    type [RT 2005](http://rt2005.com) consommera 3 stères de bois ou 1,5 T de
+    granulé environ.
+    
+    **Attention** aux calculs de puissance (en KW) des poêles bouilleurs à
+    bûches. Contrairement à une chaudière ou à un poêle à granulé, le poêle à
+    bûches doit disposer d'un foyer suffisant pour ne pas avoir à l'alimenter
+    toute la journée. S'ajoute à ça la déperdition de chaleur dans la pièce qui
+    ne passe pas dans le circuit hydro. On estime que la puissance du poêle
+    bouilleur à bûche se calcule sur 2,5 x les déperditions de la maison.
+- infoTitle: Questions pratiques
   infoBody: |
-    Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
-    volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
-    qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
-    2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
-
+    Le bois comme source d'énergie est un choix responsable tant sur
+    les questions écologiques (la biomasse, source d'énergie renouvelable si
+    elle est gérée, permet de réduire la pression sur les ressources fossiles)
+    que sur les questions de budget : comparez [ici](bla.com) les tarifs de
+    l'énergie en 2012 (source du graphique).
+    
+    Pour un entretien correct pensez au ramonage / nettoyage du poêle 2 fois par
+    ans de préférence, ou une fois minimum. On change les réfractaires et joints de
+    portes tous les 5 à 6 ans.
 workList:
 
 - workTitle: Poêle Jotul 8 KW
