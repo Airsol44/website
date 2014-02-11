@@ -1,0 +1,215 @@
+.as {
+  background: url(../img/cover.png) no-repeat fixed 0 / cover;
+  color: #333;
+  font: 14px/18px sans-serif;
+  margin: 0;
+}
+
+.as_chaudieres {
+  background-image: url(../img/chaudieres/cover.png);
+}
+.as_photovoltaique {
+  background-image: url(../img/photovoltaique/cover.png);
+}
+.as_poeles {
+  background-image: url(../img/poeles/cover.png);
+}
+.as_thermique {
+  background-image: url(../img/thermique/cover.png);
+}
+
+.as_about, .as_news {
+  background: #eee;
+  margin: 0 10px 10px 0;
+  padding: 10px 20px;
+}
+
+.as_domain__info {
+  background: #eee;
+  margin-bottom: 10px;
+  padding: 1px 20px;
+}
+.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
+  color: inherit;
+}
+.as_chaudieres .as_domain__info:first-child {
+  background: #e80;
+}
+.as_photovoltaique .as_domain__info:first-child {
+  background: #ec0;
+}
+.as_poeles .as_domain__info:first-child {
+  background: #f30;
+}
+.as_thermique .as_domain__info:first-child {
+  background: #ae0;
+}
+
+.as_contact, .as_map {
+  float: right;
+}
+
+.as_contact {
+  background: #eee;
+  padding: 10px;
+}
+
+.as_footer {
+  background: #333;
+  color: #eee;
+  padding: 30px 0;
+}
+
+.as_header {
+  padding-top: 60px;
+}
+
+.as_info, .as_links, .as_logo, .as_map {
+  width: 50%;
+}
+.as_info, .as_links, .as_logo, .as_menu__item {
+  float: left;
+}
+
+.as_links {
+  list-style: none;
+  padding: 0;
+}
+.as_links > li {
+  margin-bottom: 10px;
+}
+.as_links p {
+  display: inline;
+  margin: 0;
+}
+.as_links ul {
+  list-style: square inside;
+  padding-left: 10px;
+}
+
+.as_main {
+  padding: 30px 0 50px;
+}
+.as_main aside {
+  float: right;
+  margin-left: 1%;
+  width: 39%;
+}
+
+.as_menu {
+  background: #333;
+  margin: 30px 0 10px;
+  padding: 20px 0;
+}
+.as_menu__item {
+  color: #888;
+  display: block;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 8%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.as_menu__chaudieres:hover, .as_chaudieres .as_menu__chaudieres {
+  color: #e80;
+}
+.as_menu__photovoltaique:hover, .as_photovoltaique .as_menu__photovoltaique {
+  color: #ec0;
+}
+.as_menu__poeles:hover, .as_poeles .as_menu__poeles {
+  color: #f30;
+}
+.as_menu__thermique:hover, .as_thermique .as_menu__thermique {
+  color: #ae0;
+}
+
+.as_section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+.as_section:after, .as_work__header:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 1px;
+  height: 0;
+}
+
+.as_slider {
+  color: transparent;
+  position: relative;
+}
+.as_slider__item {
+  display: none;
+  width: 100%;
+}
+.as_slider__next, .as_slider__prev {
+  background: #333;
+  font-size: 0;
+  height: 100%;
+  position: absolute;
+  text-decoration: none;
+  width: 5%;
+}
+.as_slider__next:hover, .as_slider__prev:hover {
+  background: #888;
+}
+.as_slider__next:focus, .as_slider__prev:focus {
+  outline: none;
+}
+.as_slider__next {
+  right: 0;
+}
+
+.as_work {
+  background: #eee;
+  margin-bottom: 10px;
+}
+.as_work__img {
+  color: transparent;
+  display: block;
+  float: left;
+  height: 40px;
+  margin-right: 20px;
+  padding: 30px 15px;
+  text-decoration: none;
+  width: 70px;
+}
+.as_work__img:hover, .as_work__img[data-toggle="slider"] {
+  background: #333 !important;
+  color: #eee;
+}
+.as_work__img:focus {
+  outline: none;
+}
+.as_work__list {
+  float: left;
+  width: 60%;
+}
+.as_work__table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  border-width: 1px 0;
+  width: 100%;
+}
+.as_work__table td {
+  border-bottom: 1px solid #333;
+  padding: 5px 20px;
+}
+.as_work__title {
+  margin-top: 0;
+  padding-top: 15px;
+}
+.as_work__header h4, .as_work__header p {
+  padding-left: 20px;
+}
+
+/* priority business */
+
+.as_hidden {
+  display: none;
+}
+.as_slider__active {
+  display: block;
+}
