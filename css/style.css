@@ -87,6 +87,22 @@
   padding-left: 10px;
 }
 
+.as_home .as_logo, .as_logo a {
+  background: url(../img/logo.png) top left no-repeat;
+  color: transparent;
+  height: 74px;
+  overflow: hidden;
+  text-indent: 200%;
+  width: 246px;
+}
+.as_logo a {
+  background-position: top right;
+  display: block;
+}
+.as_logo a:hover, .as_logo a:focus {
+  background-position: top left;
+}
+
 .as_main {
   padding: 30px 0 50px;
 }

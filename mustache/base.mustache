@@ -3,11 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>{{ pageTitle }}Airsol</title>
-	<link rel="stylesheet" type="text/css" href="{{ baseUrl }}css/style.css" media="all"/>{{# scriptList }}
-  <link rel="icon" type="image/png" href="{{ baseUrl }}img/favicon.png"/>
+	<link rel="stylesheet" type="text/css" href="{{ baseUrl }}css/style.css" media="all"/>
+  <link rel="icon" type="image/png" href="{{ baseUrl }}img/favicon.png"/>{{# scriptList }}
 	<script type="text/javascript" src="{{ baseUrl }}js/{{ . }}"></script>{{/ scriptList }}
 </head>
-<body class="as{{# domainPage }} as_{{ domainName }}{{/ domainPage }}">
+<body class="as {{# domainPage }}as_{{ domainName }}{{/ domainPage }}{{^ domainPage }}as_home{{/ domainPage }}">
 	<header class="as_section as_header vcard">
     <h1 class="as_logo fn org">{{# domainPage }}
       <a href="{{ baseUrl }}">{{/ domainPage }}Airsol{{# domainPage }}</a>
