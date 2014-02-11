@@ -1,5 +1,5 @@
 .as {
-  background: url(../img/cover.png) no-repeat fixed 0 / cover;
+  background: url(../img/cover.png) no-repeat fixed top center / cover;
   color: #333;
   font: 14px/18px sans-serif;
   margin: 0;
