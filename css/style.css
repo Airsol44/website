@@ -26,17 +26,13 @@
 
 .as_domain__info {
   background: #eee;
-  float: left;
-  padding: 10px 2%;
-  width: 46%;
+  margin-bottom: 10px;
+  padding: 1px 20px;
 }
 .as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
   color: inherit;
 }
-.as_domain__info:first-child {
-  margin-right: 1.1%;
-  width: 44.9%;
-}.as_chaudieres .as_domain__info:first-child {
+.as_chaudieres .as_domain__info:first-child {
   background: #e80;
 }
 .as_photovoltaique .as_domain__info:first-child {
@@ -93,6 +89,11 @@
 
 .as_main {
   padding: 30px 0 50px;
+}
+.as_main aside {
+  float: right;
+  margin-left: 1%;
+  width: 39%;
 }
 
 .as_menu {
@@ -163,6 +164,7 @@
 
 .as_work {
   background: #eee;
+  margin-bottom: 10px;
 }
 .as_work__img {
   color: transparent;
@@ -181,9 +183,14 @@
 .as_work__img:focus {
   outline: none;
 }
+.as_work__list {
+  float: left;
+  width: 60%;
+}
 .as_work__table {
   border: 1px solid #333;
   border-collapse: collapse;
+  border-width: 1px 0;
   width: 100%;
 }
 .as_work__table td {
@@ -191,6 +198,7 @@
   padding: 5px 20px;
 }
 .as_work__title {
+  margin-top: 0;
   padding-top: 15px;
 }
 .as_work__header h4, .as_work__header p {

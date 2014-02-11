@@ -1,25 +1,27 @@
-<section class="as_domain as_section">{{# domainInfo }}
-  <div class="as_domain__info">
-    <h4>{{ infoTitle }}</h4>
-    {{{ infoBody }}}
-  </div>{{/ domainInfo }}
-</section>
-<section class="as_main as_section">{{# workList }}
-  <article id="{{ workName }}" class="as_work">
-    <header class="as_work__header">{{# workHasSlides }}
-      <a href="#" style="background-image: url(../img/{{ domainName }}/{{ workName }}/cover.png)" alt="Galerie" class="as_work__img as_slider__toggle" data-toggle="table" data-target="{{ workName }}">Ouvrir la galerie</a>{{/ workHasSlides }}
-      <h4 class="as_work__title"><time>{{ workDate }}</time>, {{ workTitle }}</h4>
-      {{{ workDesc }}}
-    </header>
-    <table class="as_work__table">{{# workTable }}
-      <tr>{{# tableRow }}
-        <td>{{{ . }}}</td>{{/ tableRow }}
-      </tr>{{/ workTable }}
-    </table>{{# workHasSlides }}
-    <div class="as_slider as_hidden">
-      <a href="#" class="as_slider__prev as_hidden" data-target="{{ workName }}">Précédent</a>
-      <a href="#" class="as_slider__next" data-target="{{ workName }}">Suivant</a>{{# slideList }}
-      <img src="../img/{{ domainName }}/{{ workName }}/{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideList }}
-    </div>{{/ workHasSlides }}
-  </article>{{/ workList }}
+<section class="as_main as_section">
+  <div class="as_work__list">{{# workList }}
+    <article id="{{ workName }}" class="as_work">
+      <header class="as_work__header">{{# workHasSlides }}
+        <a href="#" style="background-image: url(../img/{{ domainName }}/{{ workName }}/cover.png)" alt="Galerie" class="as_work__img as_slider__toggle" data-toggle="table" data-target="{{ workName }}">Ouvrir la galerie</a>{{/ workHasSlides }}
+        <h4 class="as_work__title"><time>{{ workDate }}</time>, {{ workTitle }}</h4>
+        {{{ workDesc }}}
+      </header>
+      <table class="as_work__table">{{# workTable }}
+        <tr>{{# tableRow }}
+          <td>{{{ . }}}</td>{{/ tableRow }}
+        </tr>{{/ workTable }}
+      </table>{{# workHasSlides }}
+      <div class="as_slider as_hidden">
+        <a href="#" class="as_slider__prev as_hidden" data-target="{{ workName }}">Précédent</a>
+        <a href="#" class="as_slider__next" data-target="{{ workName }}">Suivant</a>{{# slideList }}
+        <img src="../img/{{ domainName }}/{{ workName }}/{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideList }}
+      </div>{{/ workHasSlides }}
+    </article>{{/ workList }}
+  </div>
+  <aside>{{# domainInfo }}
+    <div class="as_domain__info">
+      <h4>{{ infoTitle }}</h4>
+      {{{ infoBody }}}
+    </div>{{/ domainInfo }}
+  </aside>
 </section>
