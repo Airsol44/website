@@ -39,7 +39,7 @@
   background: #ec0;
 }
 .as_poeles .as_domain__info:first-child {
-  background: #f30;
+  background: #f42;
 }
 .as_thermique .as_domain__info:first-child {
   background: #ae0;
@@ -117,7 +117,7 @@
   color: #ec0;
 }
 .as_menu__poeles:hover, .as_poeles .as_menu__poeles {
-  color: #f30;
+  color: #f42;
 }
 .as_menu__thermique:hover, .as_thermique .as_menu__thermique {
   color: #ae0;
@@ -196,6 +196,9 @@
 .as_work__table td {
   border-bottom: 1px solid #333;
   padding: 5px 20px;
+}
+.as_work__table td + td {
+  border-left: 1px solid #333;
 }
 .as_work__title {
   margin-top: 0;
