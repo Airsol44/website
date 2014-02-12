@@ -51,9 +51,9 @@ domains.each {|domain|
       end
     }
     yml[domain]["workList"][work]["workTable"].each_index {|row|
-      (tableWidth - yml[domain]["workList"][work]["workTable"][row]["tableRow"].length).times {
-        yml[domain]["workList"][work]["workTable"][row]["tableRow"] << " "
-      }
+      if yml[domain]["workList"][work]["workTable"][row]["tableRow"].length < tableWidth
+        then yml[domain]["workList"][work]["workTable"][row]["tableCellWidth"] = tableWidth - yml[domain]["workList"][work]["workTable"][row]["tableRow"].length + 1
+      end
     }
   }
 }

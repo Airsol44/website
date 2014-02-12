@@ -8,7 +8,7 @@
       </header>
       <table class="as_work__table">{{# workTable }}
         <tr>{{# tableRow }}
-          <td>{{{ . }}}</td>{{/ tableRow }}
+          <td{{# tableCellWidth }} colspan="{{ . }}"{{/ tableCellWidth }}>{{{ . }}}</td>{{/ tableRow }}
         </tr>{{/ workTable }}
       </table>{{# workHasSlides }}
       <div class="as_slider as_hidden">
