@@ -1,5 +1,5 @@
 <section class="as_main as_section">
-  <div class="as_work__list">{{# workList }}
+  <div class="as_work__list">{{# workList }}{{^ workHidden }}
     <article id="{{ workName }}" class="as_work">
       <header class="as_work__header">{{# workHasSlides }}
         <a href="#" style="background-image: url(../img/{{ domainName }}/{{ workName }}/cover.png)" alt="Galerie" class="as_work__img as_slider__toggle" data-toggle="table" data-target="{{ workName }}">Ouvrir la galerie</a>{{/ workHasSlides }}
@@ -17,7 +17,7 @@
         <img src="{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideExt }}{{^ slideExt }}
         <img src="../img/{{ domainName }}/{{ workName }}/{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideExt }}{{/ slideList }}
       </div>{{/ workHasSlides }}
-    </article>{{/ workList }}
+    </article>{{/ workHidden }}{{/ workList }}
   </div>
   <aside>{{# domainInfo }}
     <div class="as_domain__info">
