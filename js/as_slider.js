@@ -3,7 +3,7 @@ $ (function () {
     var work = $ (this)
     work.find (".as_slider__item:first-of-type").addClass ("as_slider__active")
     if (work.find (".as_slider__active").is (":last-of-type"))
-      work.find (".as_slider__next").addClass (".as_hidden")
+      work.find (".as_slider__next").addClass ("as_hidden")
     work
       .find (".as_slider__toggle")
       .click (function (e) {
