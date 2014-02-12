@@ -13,8 +13,9 @@
       </table>{{# workHasSlides }}
       <div class="as_slider as_hidden">
         <a href="#" class="as_slider__prev as_hidden" data-target="{{ workName }}">Précédent</a>
-        <a href="#" class="as_slider__next" data-target="{{ workName }}">Suivant</a>{{# slideList }}
-        <img src="../img/{{ domainName }}/{{ workName }}/{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideList }}
+        <a href="#" class="as_slider__next" data-target="{{ workName }}">Suivant</a>{{# slideList }}{{# slideExt }}
+        <img src="{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideExt }}{{^ slideExt }}
+        <img src="../img/{{ domainName }}/{{ workName }}/{{ slideUrl }}" alt="{{ slideAlt }}" class="as_slider__item"/>{{/ slideExt }}{{/ slideList }}
       </div>{{/ workHasSlides }}
     </article>{{/ workList }}
   </div>
