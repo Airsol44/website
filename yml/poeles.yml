@@ -8,35 +8,27 @@ domainInfo:
 - infoTitle: Un foyer dans le salon
   infoBody: |
     Le poêle chauffe directement la pièce dans laquelle il est
-    situé, et s'il s'agit d'un poêle hydro ou "poêle bouilleur" il peut
+    situé, et s'il s'agit d'un poêle hydro ou « poêle bouilleur » il peut
     également chauffer l'eau sanitaire et alimenter les radiateurs.
     
     Un poêle à granulés de bois sera plus facile à alimenter et fournira une
     température plus constante que le bois bûche ; celui-ci en revanche
-    permettra une plus grande indépendance quant à la source du bois. Enfin, la
-    qualité de l'isolation du bâtiment a un impact fort : une maison bien isolée
-    type [RT 2005](http://rt2005.com) consommera 3 stères de bois ou 1,5 T de
-    granulé environ.
-    
-    **Attention** aux calculs de puissance (en KW) des poêles bouilleurs à
-    bûches. Contrairement à une chaudière ou à un poêle à granulé, le poêle à
-    bûches doit disposer d'un foyer suffisant pour ne pas avoir à l'alimenter
-    toute la journée. S'ajoute à ça la déperdition de chaleur dans la pièce qui
-    ne passe pas dans le circuit hydro. On estime que la puissance du poêle
-    bouilleur à bûche se calcule sur 2,5 x les déperditions de la maison.
+    permettra une plus grande indépendance quant à la source du bois. Une
+    maison bien isolée type
+    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 3
+    stères de bois ou 1,5 T de granulé par saison de chauffe environ.
 - infoTitle: Questions pratiques
   infoBody: |
-    Le bois comme source d'énergie est un choix responsable tant sur
-    les questions écologiques (la biomasse, source d'énergie renouvelable si
-    elle est gérée, permet de réduire la pression sur les ressources fossiles)
-    que sur les questions de budget : comparez [ici](bla.com) les tarifs de
-    l'énergie en 2012 (source du graphique).
+    **Attention** aux calculs de puissance des poêles bouilleurs à bûches.
+    Contrairement à une chaudière ou à un poêle à granulé, on calcule la
+    puissance du poêle bouilleur à bûche sur 2,5x les déperditions de la
+    maison.
     
     Pour un entretien correct pensez au ramonage / nettoyage du poêle 2 fois par
     ans de préférence, ou une fois minimum. On change les réfractaires et joints de
     portes tous les 5 à 6 ans.
-workList:
 
+workList:
 - workTitle: Poêle Jotul 8 KW
   workName: 2013-10-jotul-pf800
   workDate: Octobre 2013

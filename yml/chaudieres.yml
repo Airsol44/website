@@ -5,25 +5,25 @@ pageTitle: "Chaudières Bois | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: La Biomasse
+- infoTitle: Chauffer la maison
   infoBody: |
-    *Se chauffer avec une ressource renouvelable.*
-
-    De nombreuses études vous montreront en détail le stock restant de
-    ressources fossiles sans poser la question de savoir s'il est normal
-    d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
-    est gérée, permet de réduire la pression sur les ressources fossiles.
-
-    Le futur se prépare aujourd'hui.
-- infoTitle: Pouvoir calorifique
+    La chaudière bois est généralement située dans une pièce annexe. Si elle
+    consomme des granulés elle peut être associée à un silo. Son atout est de
+    fournir une chaleur constante tout en simplifiant la gestion.
+    
+    Une chaudière à granulés sera plus facile à alimenter et fournira une
+    température plus constante que le bois bûche ; celui-ci en revanche
+    permettra une plus grande indépendance quant à la source du bois. Une
+    maison bien isolée type
+    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 3
+    stères de bois ou 1,5 T de granulé par saison de chauffe environ.
+- infoTitle: Questions pratiques
   infoBody: |
-    Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
-    volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
-    qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
-    2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
+    Pour un entretien correct pensez au ramonage / nettoyage du poêle 2 fois par
+    ans de préférence, ou une fois minimum. On change les réfractaires et joints de
+    portes tous les 5 à 6 ans.
 
 workList:
-  
 - workTitle: Chaudière 18 KW
   workName: 2013-08-firestar
   workDate: Août 2013
