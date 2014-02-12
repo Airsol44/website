@@ -29,7 +29,8 @@
   margin-bottom: 10px;
   padding: 1px 20px;
 }
-.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
+.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a,
+.as_work__table td a {
   color: inherit;
 }
 .as_chaudieres .as_domain__info:first-child {
@@ -213,6 +214,9 @@
 }
 .as_work__table td + td {
   border-left: 1px solid #333;
+}
+.as_work__table td p {
+  margin: 0;
 }
 .as_work__title {
   margin-top: 0;

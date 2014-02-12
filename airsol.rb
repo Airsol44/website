@@ -49,6 +49,7 @@ domains.each {|domain|
       if yml[domain]["workList"][work]["workTable"][row]["tableRow"].length > tableWidth
         then tableWidth = yml[domain]["workList"][work]["workTable"][row]["tableRow"].length
       end
+      yml[domain]["workList"][work]["workTable"][row]["tableRow"].map! {|cell| toHTML cell}
     }
     yml[domain]["workList"][work]["workTable"].each_index {|row|
       if yml[domain]["workList"][work]["workTable"][row]["tableRow"].length < tableWidth
