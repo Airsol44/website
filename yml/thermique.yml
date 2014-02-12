@@ -39,7 +39,7 @@ workList:
     Le ballon est relégué dans un placard, par manque de place disponible.
   workTable:
   - tableRow: [Kit Phœnix]
-  - tableRow: [Capteurs, Infinity3 x2]
+  - tableRow: [Capteurs, "[Infinity3](../docs/phoenix-infinity3.pdf) x2"]
   - tableRow: [Surface totale, 4m²]
   - tableRow: [Ballon, 300l]
   - tableRow: ["Coût de l'installation", 4 410€ TTC]
@@ -49,3 +49,22 @@ workList:
     slideUrl: 1.jpg
   - slideAlt: Ballon (dans le placard)
     slideUrl: 2.jpg
+- workTitle: piscine avec capteurs Phœnix
+  workName: 2009-piscine
+  workDate: 2009
+  workDesc: |
+    10m² de capteurs solaires, associés à l'effet de serre de la structure,
+    permettent une prolongation de la belle saison. Cette piscine ne dispose
+    pas d'autre moyen de chauffage.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Extérieur piscine
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Kit Phœnix]
+  - tableRow: [Capteurs, "[Infinity3](../docs/phoenix-infinity3.pdf) x5"]
+  - tableRow: [Surface totale, 10m²]
+  - tableRow: [Ballon, 150l]
+  - tableRow: [Échangeur à plaque]
+  - tableRow: [Pompe de piscine]
+  - tableRow: ["Coût de l'installation", 8 149€ TTC]
