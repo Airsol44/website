@@ -23,21 +23,28 @@ domainInfo:
     2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
 
 workList:
-- workTitle: Chaudière à bûches Verner
-  workName: 2009-buches-verner
+- workTitle: capteurs surtoiture Phœnix
+  workName: 2009-surtoiture-phoenix
   workDate: 2009
-  workDesc: "Hello you."
+  workDesc: |
+    S'adapter aux conditions sur place : une installation atypique. Il
+    s'agissait de poser un CESI (Chauffe-Eau Solaire Individuel) pour 2
+    personnes au sud de la Loire-Atlantique.
+
+    Les deux capteurs Infinity3 ont été montés sur châssis en raison de
+    l'orientation du toit (pignon plein sud) et en prenant en compte la
+    meilleure inclinaison possible.
+
+    Le ballon est relégué dans un placard, par manque de place disponible.
   workTable:
-  - tableRow: [Puissance chaudière, 25 Kw]
-  - tableRow: ["Ballon d'hydroaccumulation", 1 500 l]
-  - tableRow: [Vanne de chargement thermique]
-  - tableRow: [Circulateur, Classe A (mini 6 w)]
-  - tableRow: [Régulation climatique avec vanne trois voies motorisée]
-  - tableRow: ["Désemboueur et séparateur d'air"]
-  - tableRow: ["Coût de l'installation", 8 912€ TTC]
+  - tableRow: [Kit Phœnix]
+  - tableRow: [Capteurs, Infinity3 x2]
+  - tableRow: [Surface totale, 4m²]
+  - tableRow: [Ballon, 300l]
+  - tableRow: ["Coût de l'installation", 4 410€ TTC]
   workHasSlides: Yes
   slideList:
-  - slideAlt: Sample image
+  - slideAlt: Capteur surtoiture
     slideUrl: 1.jpg
-  - slideAlt: Sample image
+  - slideAlt: Ballon (dans le placard)
     slideUrl: 2.jpg
