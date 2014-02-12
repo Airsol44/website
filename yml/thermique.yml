@@ -86,3 +86,19 @@ workList:
   - tableRow: [Ballon, 300l]
   - tableRow: [Échangeur à plaque]
   - tableRow: ["Coût de l'installation", 7 901€ TTC]
+- workTitle: capteurs intégrés Phœnix
+  workName: 2007-integration-phoenix
+  workDate: 2007
+  workDesc: Capteurs intégrés au toit.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Extérieur maison
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Kit Phœnix]
+  - tableRow: [Chauffe-eau sanitaire]
+  - tableRow: [Capteurs, "[HRK2](../docs/phoenix-hrk2.pdf) x2"]
+  - tableRow: [Surface totale, 4m²]
+  - tableRow: [Ballon, "[double échangeur 300l](../docs/phoenix-type-s.pdf)"]
+  - tableRow: [Relevage électrique]
+  - tableRow: ["Coût de l'installation", 5 159€ TTC]
