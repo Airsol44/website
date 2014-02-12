@@ -8,7 +8,7 @@ require "yaml"
 
 # setup vars
 
-media = ["css", "img", "js"]
+media = ["css", "img", "js", "docs"]
 domains = ["chaudieres", "photovoltaique", "poeles", "thermique"]
 
 # load yaml files
