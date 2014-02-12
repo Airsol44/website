@@ -68,3 +68,21 @@ workList:
   - tableRow: [Échangeur à plaque]
   - tableRow: [Pompe de piscine]
   - tableRow: ["Coût de l'installation", 8 149€ TTC]
+- workTitle: eau sanitaire et chauffage
+  workName: 2008-chauffage-oeg
+  workDate: 2008
+  workDesc: |
+    12m² de capteurs posés en surtoiture assurent l'eau sanitaire et un
+    appoint chauffage sur le ballon tampon de la chaudière bois bûche par
+    le biais d'un échangeur à plaques.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Extérieur maison
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Kit OEG]
+  - tableRow: [Capteurs, OEG x6]
+  - tableRow: [Surface totale, 12m²]
+  - tableRow: [Ballon, 300l]
+  - tableRow: [Échangeur à plaque]
+  - tableRow: ["Coût de l'installation", 7 901€ TTC]
