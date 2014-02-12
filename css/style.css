@@ -29,9 +29,11 @@
   margin-bottom: 10px;
   padding: 1px 20px;
 }
-.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a,
-.as_work__table td a {
+.as_domain__info a, .as_info a, .as_header a, .as_footer a, .as_work__desc a {
   color: inherit;
+}
+.as_work__table td a {
+  color: #5781fc;
 }
 .as_chaudieres .as_domain__info:first-child {
   background: #e80;
