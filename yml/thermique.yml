@@ -5,22 +5,23 @@ pageTitle: "Solaire Thermique | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: La Biomasse
+- infoTitle: Se chauffer au soleil
   infoBody: |
-    *Se chauffer avec une ressource renouvelable.*
-
-    De nombreuses études vous montreront en détail le stock restant de
-    ressources fossiles sans poser la question de savoir s'il est normal
-    d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
-    est gérée, permet de réduire la pression sur les ressources fossiles.
-
-    Le futur se prépare aujourd'hui.
-- infoTitle: Pouvoir calorifique
+    Le solaire thermique emmagazine la chaleur du soleil à destination de l'eau
+    sanitaire. Avec une grande surface de capteurs on peut également l'utiliser
+    pour un chauffage basse température (par exemple un plancher chauffant à
+    eau).
+    
+    Le solaire thermique, apport de chaleur fluctuant, est utilisé en
+    combinaison avec un autre mode de chauffage pour donner un coup de pouce
+    en hiver.
+- infoTitle: Questions pratiques
   infoBody: |
-    Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
-    volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
-    qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
-    2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
+    Le coût d'une installation de taille standard est rapidement amorti sur une
+    consommation d'eau sanitaire de 4 personnes ou plus.
+    
+    On contrôle l'installation tous les 2 ans, et on change le liquide tous les
+    5 à 6 ans.
 
 workList:
 - workTitle: capteurs surtoiture Phœnix
