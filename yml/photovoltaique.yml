@@ -5,22 +5,24 @@ pageTitle: "Solaire Photovoltaique | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: La Biomasse
+- infoTitle: Centrale sur le toit
   infoBody: |
-    *Se chauffer avec une ressource renouvelable.*
+    L'énergie bon marché c'est fini : avec le déclin du pétrole, le solaire
+    est à la fois une alternative renouvelable, un investissement fiable et
+    rentable sur 10 ans.
 
-    De nombreuses études vous montreront en détail le stock restant de
-    ressources fossiles sans poser la question de savoir s'il est normal
-    d'épuiser ce stock. La biomasse, source d'énergie renouvelable si elle
-    est gérée, permet de réduire la pression sur les ressources fossiles.
-
-    Le futur se prépare aujourd'hui.
-- infoTitle: Pouvoir calorifique
+    La production d'électricité d'un kit photovoltaïque peut être consommée
+    directement ou revendue au réseau. Le tarif d'achat de l'électricité, en
+    baisse (on va vers la parité achat / vente) conduit à envisager
+    l'autoconsommation.
+- infoTitle: Questions pratiques
   infoBody: |
-    Le peuplier dégage autant de chaleur que le chêne à poids égal (pas en
-    volume). C'est le taux d'humidité qui conditionne ce pouvoir calorifique
-    qui est sensiblement le même pour toute la biomasse. A 10% d'humidité,
-    2 à 3 tonnes de biomasse dégagent autant de chaleur que 1000 l de fuel.
+    Pour une production optimale les modules sont à placer sur une pente
+    orientée sud et inclinée à 30 / 35°. Le plus important : **pas d'ombre** !
+
+    Ne pas hésiter à nettoyer les panneaux une fois par an s'ils sont sales. On
+    change l'onduleur en 5 à 10 ans, la production des panneaux est
+    généralement garantie 25 ans.
 
 workList:
 - workTitle: 12 Sillia / PICO
