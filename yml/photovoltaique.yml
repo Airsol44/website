@@ -24,6 +24,7 @@ domainInfo:
 
 workList:
 - workTitle: 12 Sillia / PICO
+  workHidden: Yes
   workName: 2013-integration-sillia
   workDate: 2013
   workDesc: |
@@ -37,6 +38,7 @@ workList:
   - tableRow: [Onduleur, PICO 3KW]
   - tableRow: [Parafoudre + disjoncteur différentiel]
   - tableRow: ["Coût de l'installation", "9 565,80€ TTC"]
+
 - workTitle: 15 Heckert / Solarmax
   workName: 2011-heckert-solarmax
   workDate: 2011
@@ -53,7 +55,8 @@ workList:
   - tableRow: [Disposition, 5 lignes de 3 modules en paysage]
   - tableRow: [Intégration Solrif]
   - tableRow: [Onduleur, "[Solarmax 3000S](../docs/solarmax-s-serie.pdf)"]
-  - tableRow: ["Coût de l'installation", 15 192€ TTC]
+  - tableRow: ["Coût de l'installation", 15 192€ TTC (en baisse)]
+
 - workTitle: 18 Solarworld / SMA
   workName: 2010-solarworld-sma
   workDate: 2010
@@ -70,7 +73,8 @@ workList:
   - tableRow: [Modules, "[Solarworld EnergieDach monocristallin 165W](../docs/solarworld-energiedach.pdf) x18"]
   - tableRow: [Puissance totale, 2970W]
   - tableRow: [Onduleur, "[SMA Sunny Boy 3300TL HC](../docs/sma-sb-3300tl-hc.pdf)"]
-  - tableRow: ["Coût de l'installation", 17 139€ TTC]
+  - tableRow: ["Coût de l'installation", 17 139€ TTC (en baisse)]
+
 - workTitle: 14 Kyocera 210W
   workName: 2010-kyocera-14
   workDate: 2010
@@ -85,7 +89,8 @@ workList:
   - tableRow: [Puissance totale, 2940W]
   - tableRow: [Disposition, 2 lignes de 7 modules en portrait]
   - tableRow: [Onduleur, "[Solarmax 3000](../docs/solarmax-s-serie.pdf)"]
-  - tableRow: ["Coût de l'installation", 17 277€ TTC]
+  - tableRow: ["Coût de l'installation", 17 277€ TTC (en baisse)]
+
 - workTitle: 22 Kyocera 135W
   workName: 2009-kyocera-22
   workDate: 2009
@@ -103,4 +108,20 @@ workList:
   - tableRow: [Puissance totale, 2970W]
   - tableRow: [Disposition, 2 lignes de 11 modules en portrait]
   - tableRow: [Onduleur, "[Solarmax 3000](../docs/solarmax-s-serie.pdf)"]
-  - tableRow: ["Coût de l'installation", 18 300€ TTC]
+  - tableRow: ["Coût de l'installation", 18 300€ TTC (en baisse)]
+
+- workTitle: 11 Solarworld / SMA
+  workName: 2009-solarworld-sma
+  workDate: 2009
+  workDesc: |
+    Installation de 2475Wc arrangée pour éviter l'ombre sur les panneaux.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Facade
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Modules, "[Solarworld polycristallin 225W](../docs/solarworld-sw.pdf) x11"]
+  - tableRow: [Puissance totale, 2475W]
+  - tableRow: [Disposition, contournement des fenêtres de toit pour l'ensoleillement]
+  - tableRow: [Onduleur, "[SMA 2500W](../docs/sma-sb2500.pdf)"]
+  - tableRow: ["Coût de l'installation", 15 301€ TTC (en baisse)]
