@@ -48,9 +48,59 @@ workList:
   - slideAlt: Facade
     slideUrl: 1.jpg
   workTable:
-  - tableRow: [Modules, "[Heckert Solar Polycristallin 200W](../docs/heckert-plx200-solrif.pdf) x15"]
+  - tableRow: [Modules, "[Heckert Solar polycristallin 200W](../docs/heckert-plx200-solrif.pdf) x15"]
   - tableRow: [Puissance totale, 3KW]
   - tableRow: [Disposition, 5 lignes de 3 modules en paysage]
   - tableRow: [Intégration Solrif]
   - tableRow: [Onduleur, "[Solarmax 3000S](../docs/solarmax-s-serie.pdf)"]
   - tableRow: ["Coût de l'installation", 15 192€ TTC]
+- workTitle: 18 Solarworld / SMA
+  workName: 2010-solarworld-sma
+  workDate: 2010
+  workDesc: |
+    Installation de 2970W en intégration « toit solaire » (EnergieDach).
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Vue en plongée
+    slideUrl: 1.jpg
+  - slideAlt: production BDPV
+    slideExt: Yes
+    slideUrl: "http://www.bdpv.fr/graphique/production.php?utilisateur=12798"
+  workTable:
+  - tableRow: [Modules, "[Solarworld EnergieDach monocristallin 165W](../docs/solarworld-energiedach.pdf) x18"]
+  - tableRow: [Puissance totale, 2970W]
+  - tableRow: [Onduleur, "[SMA Sunny Boy 3300TL HC](../docs/sma-sb-3300tl-hc.pdf)"]
+  - tableRow: ["Coût de l'installation", 17 139€ TTC]
+- workTitle: 14 Kyocera 210W
+  workName: 2010-kyocera-14
+  workDate: 2010
+  workDesc: |
+    Installation de 2940Wc en surtoiture.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Toit
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Modules, "[Kyocera KD210GH-2PU polycristallin 210W](../docs/kyocera-kd210gh-2pu.pdf) x14"]
+  - tableRow: [Puissance totale, 2940W]
+  - tableRow: [Disposition, 2 lignes de 7 modules en portrait]
+  - tableRow: [Onduleur, "[Solarmax 3000](../docs/solarmax-s-serie.pdf)"]
+  - tableRow: ["Coût de l'installation", 17 277€ TTC]
+- workTitle: 22 Kyocera 135W
+  workName: 2009-kyocera-22
+  workDate: 2009
+  workDesc: |
+    Installation de 2970Wc en surtoiture.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Chantier
+    slideUrl: 1.jpg
+  - slideAlt: production BDPV
+    slideExt: Yes
+    slideUrl: "http://www.bdpv.fr/graphique/production.php?utilisateur=10016"
+  workTable:
+  - tableRow: [Modules, "[Kyocera KD135GH-2PU polycristallin 135W](../docs/kyocera-kd135gh-2pu.pdf) x22"]
+  - tableRow: [Puissance totale, 2970W]
+  - tableRow: [Disposition, 2 lignes de 11 modules en portrait]
+  - tableRow: [Onduleur, "[Solarmax 3000](../docs/solarmax-s-serie.pdf)"]
+  - tableRow: ["Coût de l'installation", 18 300€ TTC]
