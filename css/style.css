@@ -204,13 +204,11 @@
   width: 60%;
 }
 .as_work__table {
-  border: 1px solid #333;
   border-collapse: collapse;
-  border-width: 1px 0;
   width: 100%;
 }
 .as_work__table td {
-  border-bottom: 1px solid #333;
+  border-top: 1px solid #333;
   padding: 5px 20px;
 }
 .as_work__table td + td {
