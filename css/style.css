@@ -1,21 +1,12 @@
 .as {
-  background: url(../img/cover.png) no-repeat fixed top center / cover;
+  background: url(../img/home.png) no-repeat fixed top center / cover;
   color: #333;
   font: 14px/18px sans-serif;
   margin: 0;
 }
 
-.as_chaudieres {
-  background-image: url(../img/chaudieres/cover.png);
-}
-.as_photovoltaique {
-  background-image: url(../img/photovoltaique/cover.png);
-}
-.as_poeles {
-  background-image: url(../img/poeles/cover.png);
-}
-.as_thermique {
-  background-image: url(../img/thermique/cover.png);
+.as_chaudieres, .as_photovoltaique, .as_poeles, .as_thermique {
+  background-image: url(../img/domain.png);
 }
 
 .as_about, .as_news {
