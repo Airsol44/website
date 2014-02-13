@@ -23,6 +23,9 @@ domainInfo:
     Ne pas hésiter à nettoyer les panneaux une fois par an s'ils sont sales. On
     change l'onduleur en 5 à 10 ans, la production des panneaux est
     généralement garantie 25 ans.
+- infoBody: |
+    Airsol est certifié [QualiPV](http://www.qualit-enr.org/qualipv)
+    modules Bat et Elec.
 
 workList:
 - workTitle: 12 Sillia / PICO

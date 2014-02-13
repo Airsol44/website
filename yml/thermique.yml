@@ -22,6 +22,9 @@ domainInfo:
     
     On contrôle l'installation tous les 2 ans, et on change le liquide tous les
     5 à 6 ans.
+- infoBody: |
+    Airsol est certifié [QualiSol](http://www.qualit-enr.org/qualisol)
+    et QualiSol Combi.
 
 workList:
 - workTitle: capteurs surtoiture Phœnix

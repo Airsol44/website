@@ -22,22 +22,11 @@ domainInfo:
     Pensez au ramonage & nettoyage de la chaudière 2
     fois par ans de préférence, ou une fois minimum. On change les réfractaires
     et joints de portes tous les 5 à 6 ans.
+- infoBody: |
+    Airsol est certifié [QualiBois](http://www.qualit-enr.org/qualibois)
+    modules Air et Eau.
 
 workList:
-- workTitle: Chaudière 18 KW
-  workHidden: Yes
-  workName: 2013-08-firestar
-  workDate: Août 2013
-  workDesc: |
-    Fourniture et pose d'une chaudière à granulés de bois avec un ballon pour
-    le chauffage et l'eau chaude sanitaire.
-  workHasSlides: No
-  workTable:
-  - tableRow: [Chaudière, Firestar Lambda HERZ 18 KW]
-  - tableRow: [Ballon 1 000l 2 échangeurs + résistance électrique 3 KW]
-  - tableRow: [Conduit de fumée inox + isolation]
-  - tableRow: ["Coût de l'installation", "17 911,30 € TTC"]
-
 - workTitle: chaudières à bûches Verner
   workName: 2009-buches-verner
   workDate: 2009
