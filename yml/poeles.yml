@@ -29,32 +29,50 @@ domainInfo:
     portes tous les 5 à 6 ans.
 
 workList:
-- workTitle: Poêle Jotul 8 KW
-  workHidden: Yes
-  workName: 2013-10-jotul-pf800
-  workDate: Octobre 2013
-  workDesc: |
-    Fourniture et pose d'un poêle habillage acier à convection naturelle +
-    supports plancher et toit. Installation et essais.
-  workTable:
-  - tableRow: [Poêle, "Jotul PF800 habillage acier 8 KW"]
-  - tableRow: [Fumisterie de raccordement émail]
-  - tableRow: [Solin avec collerette + chapeau anti-pluie]
-  - tableRow: [Supports plancher et toit]
-  - tableRow: [Total TTC, "5 520,74 €"]
-  workHasSlides: No
-
-- workTitle: Insert Deville à bûches
+- workTitle: insert Deville à bûches
   workName: 2013-deville-bijou
   workDate: 2013
   workDesc: |
     Pose d'un insert et conduit de fumée, ramonage.
   workHasSlides: Yes
   slideList:
-  - slideAlt:
+  - slideAlt: Insert
     slideUrl: 1.jpg
   workTable:
   - tableRow: [Insert, "Deville Bijou C50 Turbo"]
+  - tableRow: [Puissance, 7KW]
   - tableRow: [Longueur de bûches, 36cm]
   - tableRow: [Conduits fumée + gainage inox double peau]
   - tableRow: [Coût total, 3 259€ TTC]
+
+- workTitle: poêle à bois Scan-line avec four
+  workName: 2013-scan-line-heta
+  workDate: 2013
+  workDesc: |
+    Pose d'un poêle à bois bûche avec percement du mur extérieur et essais.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Essais poêle
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Insert, "[Scan-line Heta 520 pierre ollaire + four](../docs/scan-line-heta520.pdf)"]
+  - tableRow: [Puissance, 4-11KW]
+  - tableRow: [Longueur de bûches, 33cm]
+  - tableRow: [Fumisterie inox double peau + sortie de toit]
+  - tableRow: [Coût total, 5 900€ TTC]
+
+- workTitle: poêle à granulés Ravelli
+  workName: 2013-ravelli-olivia
+  workDate: 2013
+  workDesc: |
+    Pose d'un poêle à granulés extra-plat Ravelli et essais.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Poêle
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Poêle, Ravelli Olivia ceramica blanc]
+  - tableRow: [Puissance, 2.8-8KW]
+  - tableRow: [Stockage de granulés, 15Kg]
+  - tableRow: ["Fumisterie émaillée + prise d'air"]
+  - tableRow: [Coût total, 3 509€ TTC]
