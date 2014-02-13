@@ -20,8 +20,8 @@
     </article>{{/ workHidden }}{{/ workList }}
   </div>
   <aside>{{# domainInfo }}
-    <div class="as_domain__info">
-      <h4>{{ infoTitle }}</h4>
+    <div class="as_domain__info">{{# infoTitle }}
+      <h4>{{ . }}</h4>{{/ infoTitle }}
       {{{ infoBody }}}
     </div>{{/ domainInfo }}
   </aside>
