@@ -3,13 +3,14 @@ airsol44.com
 
 ## reste à faire
 
-* fin des travaux chaudières
+x fin des travaux chaudières
 * travaux poêles avec photos
-* lien mail
+x lien mail
 * détail des différentes certifs à jour
-* liens production bdpv en dur dans le tableau
+x liens production bdpv en dur dans le tableau
+x news à jour
 
-* signature : lien vers github.
+x signature : lien vers github.
 
 ## comment j'ai construit ce site
 
