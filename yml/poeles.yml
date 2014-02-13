@@ -30,6 +30,7 @@ domainInfo:
 
 workList:
 - workTitle: Poêle Jotul 8 KW
+  workHidden: Yes
   workName: 2013-10-jotul-pf800
   workDate: Octobre 2013
   workDesc: |
@@ -43,50 +44,17 @@ workList:
   - tableRow: [Total TTC, "5 520,74 €"]
   workHasSlides: No
 
-- workTitle: Poêle à bûches Oranier 6 KW
-  workName: 2013-10-oranier
-  workDate: Octobre 2013
+- workTitle: Insert Deville à bûches
+  workName: 2013-deville-bijou
+  workDate: 2013
   workDesc: |
-    Fourniture et pose d'un poêle à bûches, création de prise d'air et essais.
-  workTable:
-  - tableRow: [Poêle, "HeraD pierre ollaire gris fonte 6 KW"]
-  - tableRow: [Bûches, 33cm]
-  - tableRow: [Conduits fumée, dans conduit existant]
-  - tableRow: [Raccordement, tube émaillé 2m]
-  - tableRow: [Total TTC, "3 846,65 €"]
-  workHasSlides: No
-
-- workTitle: "Poêle Jotul 7,5 KW"
-  workName: 2013-10-jotul-f400
-  workDate: Octobre 2013
-  workDesc: |
-    Fourniture et pose d'un poêle en fonte, tubage et mise en service.
-  workTable:
-  - tableRow: [Poêle, "Jotul F400 bleu-noir émaillé 7,5 KW"]
-  - tableRow: [Fumisterie inox, "Double peau isolé 7,50m"]
-  - tableRow: [Sans fumisterie de raccordement (fournie)]
-  - tableRow: [Poêle éligible aux certificats C2E]
-  - tableRow: [Total TTC, "4 254,88 €"]
-  workHasSlides: No
-
-- workTitle: Poêle à granulés Red
-  workName: 2013-09-edera
-  workDate: Septembre 2013
-  workDesc: |
-    Pose et essais d'un poêle à granulés, tubage d'un conduit existant.
-  workTable:
-  - tableRow: [Poêle, Red Metal Edera]
-  - tableRow: [Tubage et raccords]
-  - tableRow: ["Percement du mur extérieur pour prise d'air"]
-  - tableRow: [Total TTC, "1 207,96 €"]
-  workHasSlides: No
-
----
-
-- workTitle: sample with slides
+    Pose d'un insert et conduit de fumée, ramonage.
   workHasSlides: Yes
   slideList:
-  - slideAlt: Sample image
+  - slideAlt:
     slideUrl: 1.jpg
-  - slideAlt: Sample image
-    slideUrl: 2.jpg
+  workTable:
+  - tableRow: [Insert, "Deville Bijou C50 Turbo"]
+  - tableRow: [Longueur de bûches, 36cm]
+  - tableRow: [Conduits fumée + gainage inox double peau]
+  - tableRow: [Coût total, 3 259€ TTC]
