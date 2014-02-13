@@ -4,9 +4,9 @@ airsol44.com
 ## reste à faire
 
 x fin des travaux chaudières
-* travaux poêles avec photos
+x travaux poêles avec photos
 x lien mail
-* détail des différentes certifs à jour
+x détail des différentes certifs à jour
 x liens production bdpv en dur dans le tableau
 x news à jour
 
