@@ -5,7 +5,7 @@ pageTitle: "Solaire Photovoltaique | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: Centrale sur le toit
+- infoTitle: Une centrale sur le toit
   infoBody: |
     L'énergie bon marché c'est fini : avec le déclin du pétrole, le solaire
     est à la fois une alternative renouvelable, un investissement fiable et
@@ -64,6 +64,7 @@ workList:
   workDate: 2010
   workDesc: |
     Installation de 2970W en intégration « toit solaire » (EnergieDach).
+    Production suivie sur [BDPV](http://www.bdpv.fr/fiche_utilisateur.php?util=phil44).
   workHasSlides: Yes
   slideList:
   - slideAlt: Vue en plongée
@@ -97,7 +98,8 @@ workList:
   workName: 2009-kyocera-22
   workDate: 2009
   workDesc: |
-    Installation de 2970Wc en surtoiture.
+    Installation de 2970Wc en surtoiture. Production suivie sur
+    [BDPV](http://www.bdpv.fr/fiche_utilisateur.php?util=closien).
   workHasSlides: Yes
   slideList:
   - slideAlt: Chantier
