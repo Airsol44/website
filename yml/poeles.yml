@@ -45,7 +45,7 @@ workList:
   - tableRow: [Insert, "Deville Bijou C50 Turbo"]
   - tableRow: [Puissance, 7KW]
   - tableRow: [Longueur de bûches, 36cm]
-  - tableRow: [Conduits fumée + gainage inox double peau]
+  - tableRow: [Gainage conduit de fumée inox double peau]
   - tableRow: ["Coût de l'installation", 3 259€ TTC]
 
 - workTitle: poêle à bois Scan-line avec four
@@ -61,7 +61,7 @@ workList:
   - tableRow: [Insert, "[Scan-line Heta 520 pierre ollaire + four](../docs/scan-line-heta520.pdf)"]
   - tableRow: [Puissance, 4-11KW]
   - tableRow: [Longueur de bûches, 33cm]
-  - tableRow: [Fumisterie inox double peau + sortie de toit]
+  - tableRow: [Gainage conduit de fumée inox double peau]
   - tableRow: ["Coût de l'installation", 5 900€ TTC]
 
 - workTitle: poêle Ravelli Olivia à granulés
@@ -95,6 +95,7 @@ workList:
   - tableRow: [Puissance, 2.5-6.5KW]
   - tableRow: [Stockage de granulés, 15Kg]
   - tableRow: [Fumisterie émaillée]
+  - tableRow: [Conduit inox neuf]
   - tableRow: ["Coût de l'installation", 3 153€ TTC]
 
 - workTitle: poêle à bûches Justus et radiateurs
