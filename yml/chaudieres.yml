@@ -55,3 +55,50 @@ workList:
   - tableRow: [Régulation climatique avec vanne 3 voies motorisée]
   - tableRow: ["Désemboueur et séparateur d'air"]
   - tableRow: ["Coût de l'installation", 8 912€ TTC]
+
+- workTitle: chaudières à granulés Okofen
+  workName: 2008-granules-okofen
+  workDate: 2008
+  workDesc: |
+    Chaudière utilisée en chauffage et en complément du solaire thermique. Le
+    silo a été construit par le client.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Chaudière
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Chaudière, "[Okofen 20KW](../docs/okofen.pdf)"]
+  - tableRow: [Transport du granulé par vis et aspiration sur 15m]
+  - tableRow: [Régulation climatique avec vanne 3 voies motorisée]
+  - tableRow: ["Désemboueur et séparateur d'air"]
+  - tableRow: ["Coût de l'installation", 14 900€ TTC]
+
+- workTitle: chaudières à granulés Verner
+  workName: 2007-granules-verner
+  workDate: 2007
+  workDesc: |
+    **Installation primée** aux écotrophées 2009 du Parc Naturel de Brière,
+    pour son fonctionnement aux granulés de roseau.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Mise en route
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Chaudière, "[Verner 25KW](../docs/verner-automatic.pdf)"]
+  - tableRow: [Ballon, 1000l]
+  - tableRow: [Vanne de chargement thermique]
+  - tableRow: ["Coût de l'installation", 10 500€ TTC]
+
+- workTitle: chaudières à granulés Biotech
+  workName: 2006-granules-biotech
+  workDate: 2006
+  workDesc: |
+    Chaudière utilisée en chauffage et en complément du solaire thermique. Le
+    silo a été construit par le client.
+  workHasSlides: No
+  workTable:
+  - tableRow: [Chaudière, "[Biotech PZ25RL 25KW](../docs/biotech.pdf)"]
+  - tableRow: [Transport du granulé par aspiration]
+  - tableRow: [Régulation climatique avec vanne 3 voies motorisée]
+  - tableRow: ["Désemboueur et séparateur d'air"]
+  - tableRow: ["Coût de l'installation", 15 012€ TTC]
