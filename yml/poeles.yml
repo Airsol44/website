@@ -43,7 +43,7 @@ workList:
   - tableRow: [Puissance, 7KW]
   - tableRow: [Longueur de bûches, 36cm]
   - tableRow: [Conduits fumée + gainage inox double peau]
-  - tableRow: [Coût total, 3 259€ TTC]
+  - tableRow: ["Coût de l'installation", 3 259€ TTC]
 
 - workTitle: poêle à bois Scan-line avec four
   workName: 2013-scan-line-heta
@@ -59,9 +59,9 @@ workList:
   - tableRow: [Puissance, 4-11KW]
   - tableRow: [Longueur de bûches, 33cm]
   - tableRow: [Fumisterie inox double peau + sortie de toit]
-  - tableRow: [Coût total, 5 900€ TTC]
+  - tableRow: ["Coût de l'installation", 5 900€ TTC]
 
-- workTitle: poêle à granulés Ravelli
+- workTitle: poêle Ravelli Olivia à granulés
   workName: 2013-ravelli-olivia
   workDate: 2013
   workDesc: |
@@ -75,4 +75,59 @@ workList:
   - tableRow: [Puissance, 2.8-8KW]
   - tableRow: [Stockage de granulés, 15Kg]
   - tableRow: ["Fumisterie émaillée + prise d'air"]
-  - tableRow: [Coût total, 3 509€ TTC]
+  - tableRow: ["Coût de l'installation", 3 509€ TTC]
+
+- workTitle: poêle Ravelli Mavi à granulés
+  workName: 2012-ravelli-mavi
+  workDate: 2012
+  workDesc: |
+    Pose d'un poêle à granulés ventilé Ravelli habillage acier, création
+    d'entrée d'air et essais.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Poêle
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Poêle, Ravelli Mavi blanc]
+  - tableRow: [Puissance, 2.5-6.5KW]
+  - tableRow: [Stockage de granulés, 15Kg]
+  - tableRow: [Fumisterie émaillée]
+  - tableRow: ["Coût de l'installation", 3 153€ TTC]
+
+- workTitle: poêle à bûches Justus et radiateurs
+  workName: 2012-justus-texel
+  workDate: 2012
+  workDesc: |
+    Pose d'un poêle à bûches Justus acier gris, 8 radiateurs aciers,
+    raccordement.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Poêle installé
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Poêle, "[Justus Texel 7](../docs/justus-textel7.pdf)"]
+  - tableRow: [Puissance, 6.5KW]
+  - tableRow: [Taille de bûche, 33cm]
+  - tableRow: [Fumisterie inox double peau]
+  - tableRow: ["[Radiateur acier type samba Chappée](../docs/chappee-samba.pdf) x8"]
+  - tableRow: [Thermostat d'ambiance]
+  - tableRow: ["Coût de l'installation", 5 589€ TTC]
+
+- workTitle: poêle à bûches Scan-line sur dalle ardoise
+  workName: 2010-scan-line-heta
+  workDate: 2010
+  workDesc: |
+    Pose d'un poêle à bûches Scan-line noir avec prise d'air sur mesure à
+    l'arrière, plaque ardoise sous le poêle.
+  workHasSlides: Yes
+  slideList:
+  - slideAlt: Poêle
+    slideUrl: 1.jpg
+  workTable:
+  - tableRow: [Poêle, "[Scan-line Heta 7B](../docs/scan-line-heta7b.pdf)"]
+  - tableRow: [Puissance, 3-6KW]
+  - tableRow: [Taille de bûche, 30cm]
+  - tableRow: ["Prise d'air sur mesure"]
+  - tableRow: [Fumisterie émaillée]
+  - tableRow: [Plaque ardoise champs bruts 1x0.80m]
+  - tableRow: ["Coût de l'installation", 2 679€ TTC]
