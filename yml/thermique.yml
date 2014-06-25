@@ -5,23 +5,16 @@ pageTitle: "Solaire Thermique | "
 scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 
 domainInfo:
-- infoTitle: Se chauffer au soleil
+- infoTitle: Chauffer l'eau avec le soleil
   infoBody: |
-    Le solaire thermique emmagazine la chaleur du soleil à destination de l'eau
-    sanitaire. Avec une grande surface de capteurs on peut également l'utiliser
-    pour un chauffage basse température (par exemple un plancher chauffant à
-    eau).
-    
-    Le solaire thermique, apport de chaleur fluctuant, est utilisé en
-    combinaison avec un autre mode de chauffage pour donner un coup de pouce
-    en hiver.
+    La chaleur produites par des capteurs est stockée dans un ballon, puis utilisée au fur et à mesure des besoins.
+
+    le dimensionnement pour une famille standard est de 4 à 5 m2 pour l'eau sanitaire et de 10 à 20 m² pour l'eau sanitaire et le chauffage. Sauf exception, en chauffage, le solaire est un appoint.
 - infoTitle: Questions pratiques
   infoBody: |
-    Le coût d'une installation de taille standard est rapidement amorti sur une
-    consommation d'eau sanitaire de 4 personnes ou plus.
-    
-    On contrôle l'installation tous les 2 ans, et on change le liquide tous les
-    5 à 6 ans.
+    Pour un CESI (chauffe-eau solaire individuel) le coût est d'environ 5000 euros pour un 5 m² 300l avec TVA réduite.
+
+    On contrôle l’installation tous les 2 ans, et on change le liquide si besoin.
 - infoBody: |
     Airsol est certifié [QualiSol](http://www.qualit-enr.org/qualisol)
     et QualiSol Combi.

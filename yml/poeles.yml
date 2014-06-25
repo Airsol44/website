@@ -15,18 +15,21 @@ domainInfo:
     température plus constante que le bois bûche ; celui-ci en revanche
     permettra une plus grande indépendance quant à la source du bois. Une
     maison de 90m² bien isolée type
-    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 4
-    stères de bois ou 1,5 T de granulé par saison de chauffe environ.
+    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 3
+    stères de bois ou 1 T de granulé par saison de chauffe environ.
 - infoTitle: Questions pratiques
   infoBody: |
     **Attention** aux calculs de puissance des poêles bouilleurs à bûches.
-    Contrairement à une chaudière ou à un poêle à granulé, on calcule la
+    Contrairement à un poêle classique qui se calcule sur 1x les déperditions de
+    la maison, on calcule la
     puissance du poêle bouilleur à bûche sur 2,5x les déperditions de la
     maison.
     
     Pensez au ramonage & nettoyage du poêle 2 fois par
-    ans de préférence, ou une fois minimum. On change les réfractaires et joints de
+    ans selon la norme, ou une fois minimum selon les assurances. On change les réfractaires et joints de
     portes tous les 5 à 6 ans.
+
+    Le prix d'une installation est très variable : on commence avec un budget minimum de 2 500 euros pour un poêle a granulés.
 - infoBody: |
     Airsol est certifié [QualiBois](http://www.qualit-enr.org/qualibois)
     modules Air et Eau.
@@ -52,7 +55,7 @@ workList:
   workName: 2013-scan-line-heta
   workDate: 2013
   workDesc: |
-    Pose d'un poêle à bois bûche avec percement du mur extérieur et essais.
+    Pose d'un poêle à bois bûche avec percement du mur extérieur.
   workHasSlides: Yes
   slideList:
   - slideAlt: Essais poêle
@@ -68,7 +71,7 @@ workList:
   workName: 2013-ravelli-olivia
   workDate: 2013
   workDesc: |
-    Pose d'un poêle à granulés extra-plat Ravelli et essais.
+    Pose d'un poêle à granulés extra-plat Ravelli.
   workHasSlides: Yes
   slideList:
   - slideAlt: Poêle
@@ -85,7 +88,7 @@ workList:
   workDate: 2012
   workDesc: |
     Pose d'un poêle à granulés ventilé Ravelli habillage acier, création
-    d'entrée d'air et essais.
+    d'entrée d'air.
   workHasSlides: Yes
   slideList:
   - slideAlt: Poêle
@@ -102,7 +105,7 @@ workList:
   workName: 2012-justus-texel
   workDate: 2012
   workDesc: |
-    Pose d'un poêle à bûches Justus acier gris, 8 radiateurs aciers,
+    Pose d'un poêle à bûches Justus acier gris, 8 radiateurs aciers sur chaudière gaz,
     raccordement.
   workHasSlides: Yes
   slideList:

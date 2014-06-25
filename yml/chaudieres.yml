@@ -7,21 +7,21 @@ scriptList: ["jquery-2.0.3.min.js", "as_slider.js"]
 domainInfo:
 - infoTitle: Chauffer la maison
   infoBody: |
-    La chaudière bois est généralement située dans une pièce annexe. Si elle
-    consomme des granulés elle peut être associée à un silo. Son atout est de
-    fournir une chaleur constante tout en simplifiant la gestion.
+    Le bois est une énergie renouvelable si la forêt est bien gérée (replantation).
     
     Une chaudière à granulés sera plus facile à alimenter et fournira une
     température plus constante que le bois bûche ; celui-ci en revanche
     permettra une plus grande indépendance quant à la source du bois. Une
     maison de 90m² bien isolée type
-    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 4
-    stères de bois ou 1,5 T de granulé par saison de chauffe environ.
+    [RT 2005](http://fr.slideshare.net/paraxilocentre/rt-2005) consommera 3
+    stères de bois ou 1 T de granulé par saison de chauffe environ.
 - infoTitle: Questions pratiques
   infoBody: |
     Pensez au ramonage & nettoyage de la chaudière 2
-    fois par ans de préférence, ou une fois minimum. On change les réfractaires
-    et joints de portes tous les 5 à 6 ans.
+    fois par ans selon la norme, ou une fois minimum selon les assurances.
+    On change les réfractaires et joints de portes tous les 5 à 6 ans.
+
+    Une installation avec une chaudière granulés milieu de gamme entièrement automatisée (silo compris) coûte environ 15 000 euros posée.
 - infoBody: |
     Airsol est certifié [QualiBois](http://www.qualit-enr.org/qualibois)
     modules Air et Eau.
