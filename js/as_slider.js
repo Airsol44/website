@@ -1,3 +1,5 @@
+// nice slider
+
 $ (function () {
   $ (".as_work").each (function (i) {
     var work = $ (this)
