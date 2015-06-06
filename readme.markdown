@@ -1,16 +1,26 @@
 # Airsol
 airsol44.com
 
-## reste à faire
+## comment mettre à jour
 
-x fin des travaux chaudières
-x travaux poêles avec photos
-x lien mail
-x détail des différentes certifs à jour
-x liens production bdpv en dur dans le tableau
-x news à jour
+### rajouter une image
 
-x signature : lien vers github.
+1. rajouter dans le dossier `/img/(type de réalisation)/(nom de la réalisation)`
+  une image en .jpg ou .png uniquement (créer le dossier au besoin)
+2. ouvrir le fichier `/yml/(type de réalisation).yml` correspondant avec gedit
+  (éditeur de texte)
+3. repérer la réalisation voulue dans `workList`
+4. ajouter un élément de liste (deux lignes : slideAlt et slideUrl) en copiant/collant
+  depuis une autre liste d'images.
+  * en slideUrl mettre le chemin du fichier depuis le dossier
+  `(nom de la réalisation)` ou il a été mis
+  * en slideAlt mettre le titre de l'image
+5. enregistrer les modifications et publier le site selon la méthode décrite dans
+  aide.markdown
+
+### rajouter une réalisation
+
+(...)
 
 ## comment j'ai construit ce site
 
