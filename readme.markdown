@@ -17,7 +17,7 @@ pour ajouter une réalisation ou en modifier une.
 
 Une réalisation expliquée ligne par ligne :
 
-```yaml
+```
 - workTitle:     <- titre de la réalisation
   workName:      <- année-titre raccourci, en minuscule et séparé par des
                     tirets, c'est le nom du dossier dans lequel on va ranger
