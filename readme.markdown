@@ -1,9 +1,40 @@
-# Airsol
-airsol44.com
+# Airsol : mettre à jour le site
 
-## comment mettre à jour
+## ajouter ou modifier une réalisation
 
-### rajouter une image
+Tous les textes sont stockés au format [YAML] dans le dossier `yml/`. Il y a un
+fichier par domaine de réalisations, autrement dit :
+
+- `chaudières.yml`
+- `photovoltaique.yml`
+- `poeles.yml`
+- `thermique.yml`
+
+Ce qui devrait j'espère être assez explicite. Chaque fichier commence par un
+**en-tête** avec les infos générales du domaine. Ensuite on a la partie
+`workList:` qui liste les réalisations : c'est **ici** qu'il faut intervenir
+pour ajouter une réalisation ou en modifier une.
+
+Une réalisation expliquée ligne par ligne :
+
+```yaml
+- workTitle:     <- titre de la réalisation
+  workName:      <- année-titre raccourci, en minuscule et séparé par des
+                    tirets, c'est le nom du dossier dans lequel on va ranger
+                    les images
+  workDate:      <- année de réalisation
+  workDesc: |    <- phrase ou paragraphe de détails sur la réalisation
+    ...
+  workHasSlides: <- No si pas d'images, sinon Yes
+  slideList:     <- liste des images
+  - slideAlt:    <- texte alternatif de l'image, ou description
+    slideUrl:    <- url de l'image au sein du dossier décrit dans workName
+  workTable:     <- liste de lignes du tableau des élément et du coût
+  - tableRow: ["", ""]   <- en cellule 1 : nom de l'élément, cellule 2 :
+                            quantité, prix, lien vers une fiche
+```
+
+## rajouter une image
 
 1. rajouter dans le dossier `/img/(type de réalisation)/(nom de la réalisation)`
   une image en .jpg ou .png uniquement (créer le dossier au besoin)
@@ -18,17 +49,4 @@ airsol44.com
 5. enregistrer les modifications et publier le site selon la méthode décrite dans
   aide.markdown
 
-### rajouter une réalisation
-
-(...)
-
-## comment j'ai construit ce site
-
-1. design
-2. templating mustache avec des vars "namespaced" (genre main-menu-item)
-3. génération des données selon l'usage mustache
-4. le script qui met des points de colle sur le tout
-5. rédaction et remplissage
-
-à terme il y a sûrement moyen de faire un micro framework, une structure ou
-de bonnes "coding practices".
+[YAML]: http://fr.wikipedia.org/wiki/YAML
