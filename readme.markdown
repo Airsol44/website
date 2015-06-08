@@ -1,5 +1,16 @@
 # Airsol : mettre à jour le site
 
+## avant de commencer
+
+Avant **toute modification** il faut s'assurer qu'on a bien la dernière version
+à jour. Pour ça :
+
+1. ouvrir un terminal
+2. aller dans le bon dossier par la commande `cd (chemin vers le dossier)`
+  **le bon dossier**, c'est celui ou il y a ce fichier `readme.markdown` !
+3. taper la commande `git pull` qui va télécharger les modifications s'il y en a
+  eu. Plus d'infos sur git dans la dernière partie.
+
 ## ajouter ou modifier une réalisation
 
 Tous les textes sont stockés au format [YAML] dans le dossier `yml/`. Il y a un
@@ -59,7 +70,6 @@ transformer en pages HTML pour que ce soit lisible par le navigateur.
 
 1. ouvrir un terminal
 2. aller dans le bon dossier par la commande `cd (chemin vers le dossier)`
-  **le bon dossier**, c'est celui ou il y a ce readme.markdown !
 3. taper la commande `./airsol.rb`
 
 Ça lance le fichier de script qui génère le site web. Il indique au fur et à
@@ -79,18 +89,20 @@ le site.
   `checkout` t'emmène vers une autre partie du projet, et les fichiers ne
   correspondront plus à ce que tu as dans le dossier : ne les sauve pas de force
   dans la mauvaise partie !
-2. taper `rsync -ac --delete --exclude=static --exclude=cname static/* .`
+2. si ce n'est pas déjà fait, `git pull` pour récupérer la dernière version à
+  jour
+3. taper `rsync -ac --delete --exclude=static --exclude=cname static/* .`
   c'est une commande qui permet de copier le contenu du répertoire `static/` (où
   a été généré notre site web) vers le dossier courant : c'est en effet à la
   racine de ce dossier que le site va être visible.
-3. les modifications du site sont maintenant visible par la commande
+4. les modifications du site sont maintenant visible par la commande
   `git status` qui liste tout ce qui a été ajouté, supprimé ...
-4. pour ajouter les modifications de tous les fichiers à la publication :
+5. pour ajouter les modifications de tous les fichiers à la publication :
   `git add -u .`
-5. enregistrer la publication demande un commentaire court:
+6. enregistrer la publication demande un commentaire court:
   `git commit -m "petit commentaire"`, c'est pour se souvenir à quoi ces
   modifications correspondent.
-6. enfin, `git push origin gh-pages` publie en ligne sur la branche `gh-pages`,
+7. enfin, `git push origin gh-pages` publie en ligne sur la branche `gh-pages`,
   utilisée par l'hébergeur pour mettre le site en ligne.
 
 Attention, tout ce qu'on a sauvegardé ici c'est le **site généré** ! Il faut
@@ -106,7 +118,7 @@ ligne les données brutes (YAML) qui on servi à générer le site.
   on est maintenant sur `master` donc on publie dans `origin master`
 
 Voilà, si tout s'est bien passé tout est enregistré et publié ... Vérifie ça sur
-[http://airsol44.com] et envoie-moi un mail si t'as tout casse !
+[airsol44.com](http://airsol44.com) et envoie-moi un mail si t'as tout cassé !
 
 [YAML]: http://fr.wikipedia.org/wiki/YAML
 [Git]: http://git-scm.com/doc
