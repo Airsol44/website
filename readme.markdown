@@ -34,19 +34,79 @@ Une réalisation expliquée ligne par ligne :
                             quantité, prix, lien vers une fiche
 ```
 
+Le plus sûr, c'est de se reporter aux réalisations déjà présentes pour
+s'inspirer de la façon dont elles ont été écrites.
+
 ## rajouter une image
 
-1. rajouter dans le dossier `/img/(type de réalisation)/(nom de la réalisation)`
+1. rajouter dans le dossier `img/(domaine)/(nom de la réalisation)`
   une image en .jpg ou .png uniquement (créer le dossier au besoin)
-2. ouvrir le fichier `/yml/(type de réalisation).yml` correspondant avec gedit
-  (éditeur de texte)
+2. ouvrir le fichier `yml/(domaine).yml` correspondant avec gedit (éditeur de
+  texte)
 3. repérer la réalisation voulue dans `workList`
-4. ajouter un élément de liste (deux lignes : slideAlt et slideUrl) en copiant/collant
-  depuis une autre liste d'images.
-  * en slideUrl mettre le chemin du fichier depuis le dossier
-  `(nom de la réalisation)` ou il a été mis
-  * en slideAlt mettre le titre de l'image
-5. enregistrer les modifications et publier le site selon la méthode décrite dans
-  aide.markdown
+4. ajouter un élément de liste (deux lignes : `slideAlt` et `slideUrl`), le plus
+  simple est de copier/coller depuis une autre liste d'images.
+  * en `slideUrl` mettre le chemin du fichier depuis le dossier `img/(workName)`
+    ou il a été mis
+  * en `slideAlt` mettre le titre de l'image
+  Les deux lignes sont montrées en exemple dans la réalisation détaillée au
+  paragraphe précédent
+
+## générer le site
+
+Ce qu'on a là, ce sont de petits morceaux de site, qu'il faut maintenant
+transformer en pages HTML pour que ce soit lisible par le navigateur.
+
+1. ouvrir un terminal
+2. aller dans le bon dossier par la commande `cd (chemin vers le dossier)`
+  **le bon dossier**, c'est celui ou il y a ce readme.markdown !
+3. taper la commande `./airsol.rb`
+
+Ça lance le fichier de script qui génère le site web. Il indique au fur et à
+mesure le nombre de réalisations de chaque domaine qui ont été générées. Tu peux
+à présent consulter le dossier static/ qui contient ton site web à jour, pour
+vérifier que tout s'est bien passé dans tes modifications.
+
+## enregistrer la nouvelle version et publier le site
+
+Pour la dernière étape on se sert du terminal et d'un outil appelé [Git]. Il va
+enregistrer toutes les modifications de fichiers en un `commit`, une
+publication, et on va pouvoir l'envoyer en ligne pour qu'elle soit visible sur
+le site.
+
+1. taper `git checkout gh-pages`
+  Pour cette étape, ferme tous les fichiers ouverts dans gedit ! La commande
+  `checkout` t'emmène vers une autre partie du projet, et les fichiers ne
+  correspondront plus à ce que tu as dans le dossier : ne les sauve pas de force
+  dans la mauvaise partie !
+2. taper `rsync -ac --delete --exclude=static --exclude=cname static/* .`
+  c'est une commande qui permet de copier le contenu du répertoire `static/` (où
+  a été généré notre site web) vers le dossier courant : c'est en effet à la
+  racine de ce dossier que le site va être visible.
+3. les modifications du site sont maintenant visible par la commande
+  `git status` qui liste tout ce qui a été ajouté, supprimé ...
+4. pour ajouter les modifications de tous les fichiers à la publication :
+  `git add -u .`
+5. enregistrer la publication demande un commentaire court:
+  `git commit -m "petit commentaire"`, c'est pour se souvenir à quoi ces
+  modifications correspondent.
+6. enfin, `git push origin gh-pages` publie en ligne sur la branche `gh-pages`,
+  utilisée par l'hébergeur pour mettre le site en ligne.
+
+Attention, tout ce qu'on a sauvegardé ici c'est le **site généré** ! Il faut
+maintenant retourner dans la première branche pour enregistrer et envoyer en
+ligne les données brutes (YAML) qui on servi à générer le site.
+
+1. `git checkout master`, la branche principale
+2. `git status` pour vérifier les modifications
+3. `git add -u .` pour tout ajouter à la publication
+4. `git commit -m "commentaire"` pour enregistrer et commenter la publication
+5. `git push origin master` : **attention** on ne publie pas n'importe où ! on
+  était avant sur la branche `gh-pages` donc on publiait dans `origin gh-pages`,
+  on est maintenant sur `master` donc on publie dans `origin master`
+
+Voilà, si tout s'est bien passé tout est enregistré et publié ... Vérifie ça sur
+[http://airsol44.com] et envoie-moi un mail si t'as tout casse !
 
 [YAML]: http://fr.wikipedia.org/wiki/YAML
+[Git]: http://git-scm.com/doc
